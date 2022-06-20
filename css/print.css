@@ -1,0 +1,52 @@
+
+*{font-family: 'Roboto', sans-serif;}
+
+.sw-dropdown{
+  border:1px solid #FFFFFFF;
+  float:left;
+  padding-left:20px;
+  padding-top:40px;
+}
+
+#bouton_screen{
+ float:right;
+ border:1px solid #FFFFFF;
+ color:red;
+
+}
+
+#print_button{
+ float:right;
+ background:#FFFFFF;
+ border:none;
+ color:red;
+}
+
+.modal-footer{
+ display:none;
+}
+
+.modal-dialog{
+ height:300px !important;
+ width:1300px;
+}
+
+h6{
+color:#FFFFFF;
+}
+
+input[type='radio']:checked+span{
+ color:#1a2980;
+ font-weight:bold;
+}
+
+input[type='radio']+span{
+ color: black;
+ font-size:13px;
+}
+
+
+
+
+
+

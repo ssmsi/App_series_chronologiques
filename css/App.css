@@ -1,0 +1,173 @@
+
+* {font-family:'Roboto',sans-serif;}
+
+.dataTables_scrollBody{
+ border-bottom:1px solid #C0C0C0 !important;
+ border-left:1px solid #C0C0C0;
+ border-right:1px solid #C0C0C0;
+}
+
+.dataTables_scrollHead{
+ border-left:1px solid #C0C0C0 !important;
+ border-right:1px solid #C0C0C0 !important;
+ background:#1a2980;
+}
+
+.radio{
+ width:550px;
+}
+
+.radio span{
+ font-size:13px!important;
+ padding-right:10px;
+}
+
+.container-fluid {
+ background-color:#FFFFFF;
+ margin: 0;
+ padding: 0;
+ overflow-y: hidden;
+} 
+
+h4{
+ text-decoration:none;
+ font-weight: bold;
+ font-size:15px;
+}
+
+#descriptif {
+ margin-bottom:5%;
+ text-align: justify;
+}
+
+.fa-download{
+ color:#1a2980;
+ float:right;
+ margin-left:20px !important;
+}
+
+.DownloadData{
+ width:30%;display:inline-block;
+ border-radius:5px;
+ color:#1a2980;
+ background-color:#fdfefe;
+}
+
+.DownloadSeries{
+ width:30%;display:inline-block;
+ border-radius:5px;
+ color:#1a2980;
+ background-color:#fdfefe;
+}
+
+.highcharts-button-box{
+ color:red;
+}
+
+.highcharts-label highcharts-data-label highcharts-data-label-color-undefined tspan{
+ color:red;
+}
+
+#sidebarpanel{
+ position: relative;
+ background-color:#f8f9f9;
+ border: 1px solid #C0C0C0;
+
+}
+
+li {
+ list-style-type : none;
+}
+
+#descriptif a{
+ color: #FF333C;
+ text-decoration:underline;
+}
+
+#descriptif h4{
+ text-decoration:underline;
+ color:#1a2980;
+}
+
+#descriptif .desc{
+ border:1px solid #C0C0C0;
+ padding:20px 20px 20px 20px;
+ background-color:#FFFFFF;
+}
+
+
+@media only screen and (min-width:900px) {
+#sideberpanel{
+ height:1450px;
+}
+
+}
+
+
+
+@media (min-width:1000px) and (max-width:1590px) {
+.radio{
+ color:red !important;
+ width:280px !important;
+}
+
+}
+
+
+@media only screen and (max-width:1000px) {
+.container-fluid {
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden;
+}
+      
+.highcharts-exporting-group{
+ font-size:.9rem !important;
+}
+
+.highcharts-title tspan{
+ text-align:start!important;
+ font-size:13px !important;
+}
+      
+
+
+
+#bouton_screen{
+ display:none !important;
+}
+
+#sidebarpanel{
+ margin-bottom:30px;
+}
+
+
+}
+
+
+.sw-dropdown{
+ border:1px solid #FFFFFFF;
+ float:left;
+ padding-left:20px;
+ padding-top:40px;
+}
+
+#bouton_screen{
+ float:right;
+ border:1px solid #FFFFFF;
+ color:red;
+}
+
+.modal-footer{
+ display:none;
+}
+
+.modal-dialog{
+ height:300px !important;
+ width:1300px;
+}
+                            
+h6{
+ color:#FFFFFF;
+}
+

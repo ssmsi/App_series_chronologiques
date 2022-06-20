@@ -1,0 +1,34 @@
+            
+.img ul {
+ display:flex;
+}
+             
+.nav{
+ background-color:#fff;
+ height:140px;
+ width:100%;
+ color:#000000;
+ box-shadow:0 10px 15px rgba(14,58,112,.1);
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+
+
+.nav .items{
+  margin: 0 auto 0 0;
+}
+
+              
+.nav .items .titre p{
+  font-size:18px;
+  color:#1a2980;
+  font-weight:normal;
+}  
+
+@media only screen and (max-width:1000px) {
+ .nav{
+ flex-direction: column;
+}
+
+}
