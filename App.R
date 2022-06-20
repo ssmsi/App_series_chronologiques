@@ -42,8 +42,6 @@ function ScreenGraphique(identifiant) {
 } "))),
   
 ######################################lescture des fichiers css #####################################  
-tags$head(includeScript("google-analytics.js")),
-tags$head(includeHTML("google-analytics.html")),
 useShinyjs(), 
 includeCSS("css/print.css"),
 includeCSS("css/footer.css"),
